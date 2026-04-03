@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gayathri Sai Deepika | Full Stack Developer</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+/* RESET */
+*{margin:0; padding:0; box-sizing:border-box; font-family:'Poppins',sans-serif; scroll-behavior:smooth;}
+body{background:#000; color:#e2e8f0;}
+
+/* NAVBAR */
+header{position:fixed; width:100%; top:0; display:flex; justify-content:space-between; padding:20px 10%; background:#000; border-bottom:1px solid #111; z-index:1000;}
+header h1{color:#38bdf8;}
+nav a{margin-left:20px; color:#aaa; text-decoration:none;}
+nav a:hover{color:#38bdf8;}
+
+/* HERO */
+.hero{height:100vh; display:flex; justify-content:center; align-items:center; text-align:center; flex-direction:column; position:relative; padding:20px;}
+.hero h2{font-size:45px;}
+.hero span{color:#38bdf8;}
+.hero p{margin:15px 0; color:#aaa; max-width:650px;}
+
+/* developer.json */
+.dev-json{position:absolute; bottom:20px; right:30px; background:#0a0a0a; padding:15px; border-radius:10px; font-family:monospace; font-size:13px; color:#38bdf8; border:1px solid #111; box-shadow:0 0 10px rgba(56,189,248,0.2);}
+
+/* BUTTON */
+.btn{padding:12px 25px; background:#38bdf8; color:#000; border-radius:6px; text-decoration:none; display:inline-block; margin:10px; font-weight:bold; transition:0.3s;}
+.btn:hover{background:#0ea5e9; color:#fff;}
+
+/* SECTION */
+section{padding:100px 10%;}
+.title{color:#38bdf8; margin-bottom:20px;}
+
+/* PROJECTS */
+.projects{display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px;}
+.card{background:#0a0a0a; padding:20px; border-radius:10px; border:1px solid #38bdf8; transition:0.3s;}
+.card:hover{border-color:#38bdf8; box-shadow:0 0 20px rgba(56,189,248,0.5);}
+
+/* STACK */
+.stack{display:flex; flex-wrap:wrap; gap:15px;}
+.stack-item{padding:12px 20px; border:1px solid #38bdf8; border-radius:10px; background:#0a0a0a; color:#38bdf8; font-weight:bold; transition:0.3s;}
+.stack-item:hover{background:#38bdf8; color:#000; cursor:pointer;}
+
+/* SKILLS */
+.skills-box{margin-bottom:20px;}
+.skills-box h3{color:#38bdf8; margin-bottom:5px;}
+.skills-box p{color:#aaa; font-size:14px;}
+.bar{height:8px; background:#111; border-radius:10px; overflow:hidden; margin-top:5px;}
+.bar span{display:block; height:100%; background:#38bdf8;}
+
+/* CONTACT */
+.contact{text-align:center;}
+.contact form input, .contact form textarea{padding:12px; border-radius:8px; border:1px solid #38bdf8; background:#0a0a0a; color:#e2e8f0; width:100%;}
+.contact form textarea{resize:none; height:120px;}
+.contact form button{padding:12px; border:none; border-radius:6px; background:#38bdf8; color:#000; font-weight:bold; cursor:pointer; margin-top:10px; transition:0.3s;}
+.contact form button:hover{background:#0ea5e9; color:#fff;}
+.social a{display:block; margin:10px; color:#38bdf8; text-decoration:none;}
+.social a:hover{text-decoration:underline;}
+
+/* FOOTER */
+footer{text-align:center; padding:20px; color:#555;}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Gayathri Sai Deepika</h1>
+<nav>
+<a href="#projects">Projects</a>
+<a href="#stack">Tech Stack</a>
+<a href="#skills">Skills</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+<h2>Hi, I'm <span>Gayathri Sai Deepika</span></h2>
+<p>Aspiring Full Stack Developer with a strong passion for building scalable, user-friendly web applications. I enjoy transforming ideas into real-world solutions through clean design and efficient development.</p>
+<a href="#projects" class="btn">View Work</a>
+<a href="#contact" class="btn">Hire Me</a>
+
+<!-- developer.json -->
+<div class="dev-json">
+<h4 style="margin-bottom:8px;color:#fff;">cat developer.json</h4>
+{
+<br> "name": "Gayathri Sai Deepika",
+<br> "role": "Full Stack Developer",
+<br> "email": "pallagayathri24@gmail.com",
+<br> "github": "pallagayathri24",
+<br> "linkedin": "gayathri-sai-deepika"
+<br>}
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+<h2 class="title">Featured Projects</h2>
+<div class="projects">
+<div class="card">
+<h3>Portfolio Website</h3>
+<p>Designed and developed a modern, responsive personal portfolio website showcasing skills, projects, and contact details with a clean and professional UI.</p>
+</div>
+<div class="card">
+<h3>CRUD Application</h3>
+<p>Built a dynamic CRUD application that allows users to efficiently create, read, update, and delete data with structured logic and smooth user interaction.</p>
+</div>
+<div class="card">
+<h3>Task Manager</h3>
+<p>Developed a task management system to help users organize daily activities, improve productivity, and track progress effectively.</p>
+</div>
+</div>
+</section>
+
+<!-- STACK -->
+<section id="stack">
+<h2 class="title">Tech Stack</h2>
+<p style="color:#aaa; margin-bottom:20px; max-width:700px;">I work with a modern web development stack focused on building responsive, scalable, and user-friendly applications. My expertise spans both frontend and backend technologies.</p>
+<div class="stack">
+<div class="stack-item">HTML</div>
+<div class="stack-item">CSS</div>
+<div class="stack-item">JavaScript</div>
+<div class="stack-item">Node.js</div>
+<div class="stack-item">MongoDB</div>
+</div>
+<p style="color:#aaa; margin-top:20px; max-width:700px;">I use HTML and CSS to design structured and visually appealing layouts, JavaScript to create dynamic and interactive user experiences, Node.js for backend development, and MongoDB for efficient data management.</p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+<h2 class="title">Skills</h2>
+<div class="skills-box">
+<h3>Frontend Development</h3>
+<p>Building responsive and visually appealing interfaces using modern web technologies.</p>
+<div class="bar"><span style="width:90%"></span></div>
+</div>
+<div class="skills-box">
+<h3>Backend Development</h3>
+<p>Developing server-side logic and APIs to support dynamic web applications.</p>
+<div class="bar"><span style="width:75%"></span></div>
+</div>
+<div class="skills-box">
+<h3>Database Management</h3>
+<p>Efficiently storing, retrieving, and managing application data.</p>
+<div class="bar"><span style="width:70%"></span></div>
+</div>
+<div class="skills-box">
+<h3>Problem Solving</h3>
+<p>Applying logical thinking and structured approaches to solve real-world problems.</p>
+<div class="bar"><span style="width:80%"></span></div>
+</div>
+</section>
+
+<!-- CONTACT ME -->
+<section id="contact" class="contact">
+<h2 class="title">Contact Me</h2>
+<p style="color:#aaa; max-width:700px; margin-bottom:30px;">
+I am open to internships, freelance opportunities, and collaborations. If you have an exciting project or opportunity, feel free to reach out to me. Let’s create something impactful together!
+</p>
+<div style="display:flex; flex-direction:column; align-items:center; gap:15px; margin-bottom:30px;">
+<a href="mailto:pallagayathri24@gmail.com" class="btn">📧 Email Me</a>
+<a href="https://www.linkedin.com/in/gayathri-sai-deepika-334852381" class="btn">🔗 LinkedIn</a>
+<a href="https://github.com/pallagayathri24" class="btn">💻 GitHub</a>
+</div>
+<form style="max-width:500px; margin:auto; display:flex; flex-direction:column; gap:15px;">
+<input type="text" placeholder="Your Name" required>
+<input type="email" placeholder="Your Email" required>
+<textarea placeholder="Your Message" required></textarea>
+<button type="submit">Send Message</button>
+</form>
+</section>
+
+<footer>
+<p>© 2026 Gayathri Sai Deepika | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
